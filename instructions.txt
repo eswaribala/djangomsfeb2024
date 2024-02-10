@@ -1,0 +1,83 @@
+python -m pip install -r requirements.txt
+
+For Django
+python -m venv django env
+
+
+
+To create Django project
+mkdir food_api
+cd food_api
+
+python.exe -m pip install --upgrade pip 
+
+python -m venv env
+use pycharm
+ settings tools terminal
+make shell path windows cmd C:\Windows\system32\cmd.exe
+
+check activate virtualenv
+
+
+python -m pip install django djangorestframework mysqlclient
+python -m pip install django-rest-swagger
+python -m pip install drf-yasg
+python -m pip install setuptools
+django-admin startproject customer_api .
+django-admin startapp customer
+
+Define the Customer model
+
+Configure the MySQL database  settings.py
+
+Create the API views and serializers
+
+ Register the app and REST framework in settings
+
+Configure the URLs
+
+
+create migrations using the following
+python manage.py makemigrations 
+or
+python manage.py makemigrations customer(app name where models are there)
+
+python manage.py migrate  
+
+
+
+
+
+python manage.py createsuperuser
+
+Finally run
+python manage.py runserver
+
+http://localhost:8000/admin
+create users
+
+
+swagger 
+
+http://127.0.0.1:8000/docs/
+
+
+
+
+#vault server
+
+python -m pip install hvac
+
+
+
+change environemnt
+#from dev env
+python manage.py runserver --settings=everyday_api.config.settings.dev
+
+Config Client
+
+python -m  pip install spring-config-client
+
+
+
+
