@@ -78,6 +78,12 @@ Config Client
 
 python -m  pip install spring-config-client
 
+Eureka client
+python -m pip install py-eureka-client
+
+
+#rest api calls
+python -m pip install requests
 
 
 
